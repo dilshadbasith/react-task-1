@@ -1,0 +1,14 @@
+.heading{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.firstdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.para{
+    color: white;
+    padding: 15px;
+}
