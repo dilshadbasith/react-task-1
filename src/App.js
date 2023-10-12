@@ -1,17 +1,16 @@
-import React,{Component} from 'react';
-import './App.css';
-import Comp from './components/Comp.js';
-import Comp2 from './components/Comp2.js';
+import React from "react";
+import "./App.css";
+import Comp2 from "./components/Comp2";
+import Comp from "./components/Comp";
 
-class App extends Component{
-  render(){
-    return(
-      <div>
-        <Comp/>
-        <Comp2/>
-      </div>
-    );
-  }
+function App() {
+ 
+  return (
+    <div>
+      <Comp/>
+      <Comp2/>
+    </div>
+  );
 }
 
 export default App;
